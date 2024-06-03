@@ -60,7 +60,7 @@ pw = getpass.getpass("Digite a senha: ")
 
 try:
     conexao = oracledb.connect(
-    user="Ryan2",
+    user="Priscila2",
     password = pw,
     dsn="localhost/xepdb1")
 except Exception as erro:
